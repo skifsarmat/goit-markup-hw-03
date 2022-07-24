@@ -62,6 +62,7 @@ img {
   display: flex;
   align-items: center;
   background-color: var(--background-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .header > .container {
@@ -102,7 +103,6 @@ img {
 .header-nav {
   align-items: center;
   margin-left: 93px;
-  margin-right: auto;
 }
 
 .header-list {
@@ -134,6 +134,7 @@ img {
 .contacts {
   display: flex;
   gap: 50px;
+  margin-left: auto;
 }
 
 .contacts-item {
@@ -182,9 +183,7 @@ img {
 
 .features-main {
   margin-bottom: 20px;
-  width: 700px;
   text-align: center;
-  align-items: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -245,6 +244,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .our-job {
@@ -268,6 +268,7 @@ img {
 
 .our-job-item {
   align-items: center;
+  background-color: var(--background-color);
 }
 
 .our-team {
@@ -275,6 +276,7 @@ img {
 }
 
 .team-box {
+  padding: 30px 0;
 }
 
 .our-team-title {
@@ -299,10 +301,7 @@ img {
 }
 
 .emoloyees {
-  margin-top: 19px;
-  margin-left: auto;
   margin-bottom: 10px;
-  margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -312,24 +311,19 @@ img {
 }
 
 .position {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .footer {
+  padding: 60px 0;
   background-color: var(--footer-background);
 }
 
 .footer-logo {
   display: block;
-  margin-left: 75px;
-  padding-top: 60px;
   margin-bottom: 20px;
   font-family: "Raleway";
   font-style: normal;
@@ -353,16 +347,12 @@ img {
 }
 
 .footer-list {
-  display: block;
-  padding-bottom: 60px;
 }
 
 .footer-item {
 }
 
 .footer-address {
-  margin-left: 75px;
-  margin-top: 20px;
   margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
@@ -372,9 +362,6 @@ img {
 }
 
 .footer-tel {
-  margin-left: 75px;
-  margin-bottom: 9px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -387,8 +374,6 @@ img {
 }
 
 .footer-mail {
-  margin-left: 75px;
-  margin-bottom: 60px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
